@@ -4,6 +4,7 @@ Install Specability Core with Homebrew:
 
 ```bash
 brew tap SpecabilityAI/tap
+brew trust specabilityai/tap
 brew install specability
 ```
 
