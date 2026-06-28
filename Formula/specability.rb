@@ -7,20 +7,20 @@ class Specability < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.0-preview.3/specability-core_v0.1.0-preview.3_darwin_arm64.tar.gz"
-      sha256 "d39b6cbfd367d18980f5d7f811ffadd5bf8fb5deb7368def360633821f7c1ca1"
+      sha256 "5cc6ae0819dffb236d8cfe8864a666daacc5af2cccb969eee19ca502cc794b52"
     else
       url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.0-preview.3/specability-core_v0.1.0-preview.3_darwin_amd64.tar.gz"
-      sha256 "c83f80ee023cb339ada18d3b4ac03799889f7779bb55f522dc16ab73f0aac6f2"
+      sha256 "de2ad197cf231ab2f0ed6464944e750e47020fd60482960a2123b9b68607b6b8"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.0-preview.3/specability-core_v0.1.0-preview.3_linux_arm64.tar.gz"
-      sha256 "aea92a7e2a1168c0648321fdd184798d3e9e3de3a9a819b69390a0cf33787f55"
+      sha256 "7d0032551b4ee4e5bbc60b8873baf82957de58d71d503f9b3e068e3507e62cc3"
     else
       url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.0-preview.3/specability-core_v0.1.0-preview.3_linux_amd64.tar.gz"
-      sha256 "adf97434825b27dcef7a2168e7760e64e37d8e9b7cc70640b07862488b1f2f1f"
+      sha256 "ef52f8f6305ea02ef2d121bbc954dd871c9d977fbfd44a8bf2fc6e674e24a01e"
     end
   end
 
