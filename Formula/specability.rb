@@ -1,26 +1,26 @@
 class Specability < Formula
   desc "Free local coding-agent harness"
   homepage "https://specability.com"
-  version "0.1.0-preview.6"
+  version "0.1.1"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.0-preview.6/specability-core_v0.1.0-preview.6_darwin_arm64.tar.gz"
-      sha256 "208f58be3c18170c6fc01e2fde458f18c204f215d70fd6825ff1c5bf99715bcd"
+      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.1/specability-core_v0.1.1_darwin_arm64.tar.gz"
+      sha256 "9ec2bf40cf85328dd80b24f4353ba53f924d85479e59279d332f83c9acf8782d"
     else
-      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.0-preview.6/specability-core_v0.1.0-preview.6_darwin_amd64.tar.gz"
-      sha256 "2d0a25750aacc43465abd77701efd88e9390736114e3065f56cc892caf4b4d5b"
+      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.1/specability-core_v0.1.1_darwin_amd64.tar.gz"
+      sha256 "8e7e7d4e3a557b49e180ed335a131ba43618bb231a40cf88ee6491524cb40db6"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.0-preview.6/specability-core_v0.1.0-preview.6_linux_arm64.tar.gz"
-      sha256 "0638b68755afee7a910300d7f7112ce8c217c33fabacc38cefd0d7c0472cb361"
+      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.1/specability-core_v0.1.1_linux_arm64.tar.gz"
+      sha256 "1a054a59cae2be57577ec341a02d13457b336b3923e58a96b4812d6c4fe28775"
     else
-      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.0-preview.6/specability-core_v0.1.0-preview.6_linux_amd64.tar.gz"
-      sha256 "350370bd3c0639834443c1656d96028aba74872272611e6719c8b99218b48d06"
+      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.1/specability-core_v0.1.1_linux_amd64.tar.gz"
+      sha256 "feaf78fbc03a6c816d763404b2152dcb1b7b91acba7149173a34f1a23be3ec24"
     end
   end
 
