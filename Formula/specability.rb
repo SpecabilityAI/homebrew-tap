@@ -1,26 +1,26 @@
 class Specability < Formula
   desc "Free local coding-agent harness"
   homepage "https://specability.com"
-  version "0.1.3"
+  version "0.1.4"
   license :cannot_represent
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.3/specability-core_v0.1.3_darwin_arm64.tar.gz"
-      sha256 "c09ab3726efa08bc80f564afd93e8d7a1875a09c8a741397fba0c2049e17376a"
+      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.4/specability-core_v0.1.4_darwin_arm64.tar.gz"
+      sha256 "464c25ba34e6240ebd8cb4ea6f405cfe5ec6adae6302526f075ea8c8dec6129f"
     else
-      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.3/specability-core_v0.1.3_darwin_amd64.tar.gz"
-      sha256 "332eb904295165bee1b5ba4910ba57358725264805d822dfc4015516fd152921"
+      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.4/specability-core_v0.1.4_darwin_amd64.tar.gz"
+      sha256 "0c13251f1cfd873c937a6d67c600b8d210d132468d626b821231877a5b260dfb"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.3/specability-core_v0.1.3_linux_arm64.tar.gz"
-      sha256 "24e080d3b963f8094a8f91fc5163422a82458dbc58545bbc650e1fe5479404b6"
+      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.4/specability-core_v0.1.4_linux_arm64.tar.gz"
+      sha256 "ed78626463d9855debd143417f0096f21290cbff9ce026ea39b985793ca8cd19"
     else
-      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.3/specability-core_v0.1.3_linux_amd64.tar.gz"
-      sha256 "ddad3b6bc1cdd1390f4f76877e2f5fc4f510454a32fb4868046218d0732c8dd3"
+      url "https://github.com/SpecabilityAI/specability-core/releases/download/v0.1.4/specability-core_v0.1.4_linux_amd64.tar.gz"
+      sha256 "fed01904504520655eb4fbb857cf54e1f74c51c3ccac2a420b364b99bb45fe46"
     end
   end
 
